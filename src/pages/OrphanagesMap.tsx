@@ -28,8 +28,8 @@ function OrphanagesMap() {
       </aside>
 
       <Map
-        center={[-23.7719281,-53.3150746]}
-        zoom={15}
+        center={[-23.760001,-53.3131874]}
+        zoom={19}
         style={{ width: '100%', height: '100%' }} 
       >
           <TileLayer 
