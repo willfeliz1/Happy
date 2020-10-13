@@ -6,6 +6,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  z-index: 5;
+
+}
+
+#page-landing:after {
+  background: url('../../images/landing-space.svg') no-repeat 80% center ;
+    content: "";
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}
+
+#page-landing:hover::after {
+  opacity: 1;
 }
 
 #page-landing .content-wrapper {
@@ -23,6 +46,8 @@
   justify-content: space-between;
 
   background: url('../../images/landing.svg') no-repeat 80% center;
+  z-index: 10;
+
 }
 
 #page-landing .content-wrapper main {
