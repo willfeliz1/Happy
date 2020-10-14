@@ -11,12 +11,11 @@
 ## 📕 About
 
 <b>Happy</b> is a web and mobile application to people can find nearest orphanages and make a visit to <b>bring good news</b>.
-
 Application structure was made in <b>Next Level Week</b> event distributed by RocketSeat.
 
-<h1 align="center">
+<p>
   <img src="https://media.giphy.com/media/868h0xB0Bi1pr6RkpY/giphy.gif">
-</h1>
+</p>
 
 
 ## ⚡ Techs
@@ -24,7 +23,7 @@ Application structure was made in <b>Next Level Week</b> event distributed by Ro
 * [React.js] - JavaScript library for building user interfaces.
 * [Typescript] - typed superset of JavaScript that compiles to plain JavaScript.
 
-## 💻 Installation & play 
+## 💻 Installation & play | 🚧 Under Construct
 
 ```sh
 
