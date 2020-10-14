@@ -8,27 +8,45 @@
   align-items: center;
   
   z-index: 5;
-
 }
 
-#page-landing:after {
-  background: url('../../images/landing-space.svg') no-repeat 80% center ;
-    content: "";
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
 
-    transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
+
+#page-landing:after {
+  background: url('../../images/landing-space.svg') 80% center ;
+  content: "";
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+
 }
 
 #page-landing:hover::after {
   opacity: 1;
+
+  animation: animatedBackground 30s linear infinite;
+  -webkit-animation: animatedBackground 70s linear infinite;
+
+}
+
+@keyframes animatedBackground 
+{
+  from { background-position: 0 100%; }
+  to { background-position: 100% 100%; }
+}
+
+@-webkit-keyframes  animatedBackground 
+{
+  from { background-position: 0 100%; }
+  to { background-position: 100% 100%; }
 }
 
 #page-landing .content-wrapper {
@@ -45,7 +63,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  background: url('../../images/landing.svg') no-repeat 80% center;
+  background: url('../../images/Astronauta.svg') no-repeat 80% center;
   z-index: 10;
 
 }
