@@ -14,7 +14,7 @@
 Application structure was made in <b>Next Level Week</b> event distributed by RocketSeat.
 
 Creating orphanage 🏠 | More details ⭐
------------- | ------------- | -------------
+------------ | -------------
 <img src="https://media.giphy.com/media/X5aRPTMco5IGaF5hQ3/giphy.gif"> | <img src="https://media.giphy.com/media/703QsKlkQ4L8jsH6dT/giphy.gif">
 
 
